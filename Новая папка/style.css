@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.nav{
+    background-color: rgba(134, 105, 8, 0.493);
+}
+.navbar {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.row ul  li a{
+    color: #578f12;
+}
+
+.navbar img {
+    border-radius: 25px;
+}
+
+input{
+    width: 300px;
+    height: 35px ;
+    background-color: #393d34;
+    border: none;
+    text-align: center;
+    color: antiquewhite;
+}
+button{
+    padding: 10px 15px 10px 15px;
+    background-color: #393d34;
+    border: none;
+    text-align: center;
+}
+button:hover{
+    padding: 3px 15px 3px 15px;
+    background-color: #578f12;
+    border: none;
+    transition: all 2s ease-in-out;
+}
+.content img {
+    border-radius: 25px;
+}
+
+.fox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.content{
+    background: linear-gradient(270deg, #e3ae00d7, #bd3a0b);
+    width: 850px;
+    height: 1600px; 
+    padding: 35px;
+    border-radius: 25px;
+}
+.img{
+    width: 600px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #393d3441;
+}
+.content1{
+    width: 350px;
+    height: 1400px; 
+    background: linear-gradient(270deg, #e36e00, #c8900d);
+    margin-bottom: px;
+    border-radius: 25px;
+}
+hr{
+    border: 2px dotted #fff;
+}
+.foc{
+    margin-top:20px ;
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    gap: 15px;
+}
+.col{
+    text-align: center;
+}
+.col img{
+    width: 100px;
+}
+.goll{
+    display: flex;
+    justify-content: space-around;
+}
+.soat{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.icon{
+    display: flex;
+    margin-top: 100px;
+}
+.icon img {
+   
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+.sec img {
+    padding: 15px;
+}
+/*-------------------------------------------------------------------------------*/
+.switch input:checked + .slider:before {
+    transform: translateX(2.1em);
+}
+#span1{
+    position: relative;
+    top: 3px;
+    font-size: 28px;
+    z-index: 2;
+}
+#span2{
+    position: relative;
+    top: -30px;
+    left: 40px;
+    font-size: 28px;
+    z-index: 2;
+    color: yellow;
+}
+.switch{
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+    margin: 5px;
+}
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    inset: 0;
+    background: linear-gradient(270deg, #e36e00, #c8900d);
+    border-radius: 50px;
+    transition:  all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 70px;
+}
+
+
+.slider:before{
+    position: absolute;
+    content: "";
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 3;
+
+}
+/*--------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------inputlar-------------------------------------------*/
+
+.row h1 {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+form{
+    width: 300px;
+    height: 450px;
+    background-color: rgba(255, 217, 0, 0.219);
+    text-align: center;
+    padding-top:30px ;
+    margin: 0 auto;
+    margin-top: 45px;
+    box-shadow: 0 0 13px 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+input{
+    width: 200px;
+    margin-top: 25px;
+    padding:10px;
+    box-shadow: 0 0 12px 3px #ffffff6d;
+    background-color: #0607065f;
+}
+select {
+    margin: 15px;
+    margin-top: 20px;
+    padding: 5px 7px 5px 7px;
+    box-shadow: 0 0 10px 5px;
+    background-color: #e4a30d3b;
+    color: rgba(243, 243, 243, 0.923);
+}
+button{
+    margin: 20px; 
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 0 12px 6px ;
+    border-radius: 25px;
+    background-color: #00000000;
+}
+button:hover{
+    color: #ffffff8e;
+    background-color: rgba(0, 0, 0, 0.125);
+    transform:translateY(-3px) ;
+    transition:all 1s ease-in-out ;
+}
+input:hover{
+    color: #060706f0;
+    background-color: rgba(0, 0, 0, 0.338);
+    transform:translateY(-3px) ;
+    transition:all 1s ease-in-out ;
+}
+table{
+    
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+td{
+    
+    color: #ffffffc3;
+    font-size: 25px;
+    padding: 5px;
+    border: 5px dotted #ffffff8d;
+    background-color: #ffffff46;
+}
+
+
+
+/*---------------------------------------tugasi-------------------*/
+
+
+.sec #jok2 {
+    display: none;
+
+}
+.sec #jok3 {
+    display: none;
+}
+.lux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+.but{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 3px double #090f03ad;
+    margin: 5px;
+}
+.but:hover{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(222, 156, 2);
+    border: 4px dotted solid #393d34;
+    transition: all 1s ease-in-out;
+    transform: translateY(-10px);
+}
+.sec img {
+    border-radius: 25px;
+}
+
+/*-----------------------------------------------------*/
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 99;
+    right: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: chartreuse;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+    animation: name 5s linear infinite;
+}
+
+html {
+    scroll-behavior:smooth;
+}
